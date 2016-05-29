@@ -1,0 +1,150 @@
+html {
+	box-sizing: border-box;;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+/* Navigation Section */
+.top-navigation {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+.content {
+    width: 970px;
+    margin: 0 auto;
+}
+.top-navigation .links {
+    float: right;
+    color: #838994;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-right: 8rem;
+    -webkit-font-smoothing: antialiased;
+}
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 25px;
+}
+.top-navigation .links .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+.top-navigation .logo {
+	margin-left: 7rem;
+	margin-top: 14px;
+}
+/* Introduction Section */
+
+.cases > .content {
+	padding-top: 15px;
+}
+.introduction {
+    background-image: url('images/first-background.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 43rem;
+    overflow: auto;
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+h1, h3 {
+	text-align: center;
+	letter-spacing: 1px;
+	font-weight: 300;
+	color: #fff;
+	font-family: Roboto, sans-serif;
+}
+
+h1 {
+	margin-top: 10rem;
+	font-size: 3.125rem;
+}
+h3 {
+	font-size: 1.50rem;
+	margin-top: 1rem;
+}
+button {
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 1rem 1.5rem;
+	background-color: #F36D25;
+	color: #fff;
+	display: block;
+	margin: 0 auto;
+}
+button:hover {
+	background-color: #EF6317;
+}
+
+/* Three Boxes */
+
+.cases .devices {
+	font-weight: 100;
+	text-align: center;
+	box-sizing: border-box;
+	display: inline-block;
+	width: 33%;
+}
+.cases {
+	padding-bottom: 5rem;
+}
+.devices p {
+	font-size: 25px;
+	margin: 10px;
+}
+
+/* Footer */
+.cases h2 {
+	font-weight: 100;
+	font-size: 44px;
+	font-family: Roboto, sans-serif;
+	text-align: center;
+}
+.fa-twitter {
+color: #55acee;
+}
+.fa-facebook {
+color: #4c66a4;
+}
+.fa-instagram {
+color: #3f729b;
+}
+.icons {
+	list-style: none;
+	padding: 0;
+	text-align: center;
+}
+.icons li {
+	display: inline-block;
+	border-radius: 50%;
+   border: 1px solid #eaebec;
+   padding: 10px 0;
+   width: 40px;
+   height: 40px;
+}
+.copy {
+	color: #838994;
+	font-weight: 300;
+	font-size: 15px;
+}
+.social {
+	padding-bottom: 10rem;
+	text-align: center;
+}
+
+hr {
+	width: ;
+
+}
+
+
+
+
